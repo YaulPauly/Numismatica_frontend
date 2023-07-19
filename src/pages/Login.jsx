@@ -54,8 +54,8 @@ const Login = () => {
         <input
           type="submit"
           value="Iniciar Sesión"
-          className=" w-full mb-5 py-3 border capitalize font-extralight rounded 
-          hover:cursor-pointer hover:bg-slate-100 transition-colors hover:font-medium"
+          className=" w-full mb-5 py-3 border capitalize font-extralight rounded bg-emerald-300
+          hover:cursor-pointer hover:bg-emerald-400 transition-colors hover:font-normal"
         />
       </form>
 
@@ -64,7 +64,7 @@ const Login = () => {
           className="block text-center my-5 uppercase text-sm"
           to="/registrar"
         >
-          ¿No tiene una cuenta? Regístrate
+          ¿No tienes una cuenta? Regístrate
         </Link>
 
         <Link
