@@ -52,7 +52,7 @@ const Signup = () => {
     setAlerta({})
 
     try {
-      const { data } = await axios.post('http://localhost:4000/api/usuarios', 
+      const { data } = await axios.post(`${import.meta.env.VITE_BACKEND_URL}/api/usuarios`, 
       {nombres, apellidos, password, email, celular})
       setAlerta({
         msg: data.msg, 
